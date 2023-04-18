@@ -29,7 +29,7 @@
           >
           <ul class="list list-container">
             <li class="list-container-items">
-              <a href="./index.html" class="link-nav">Studio</a>
+              <a href="./index.html" class="link-nav curent">Studio</a>
             </li>
             <li class="list-container-items">
               <a href="./portfolio.html" class="link-nav">Portfolio</a>
@@ -64,7 +64,7 @@
           <h1 class="herro-title main-herro-title">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button button-size">
+          <button type="button" class="button button-size" data-modal-open>
             Order Service
           </button>
         </div>
@@ -377,5 +377,16 @@
       </div>
     </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-btn-icon" width="8" height="8">
+            <use href="./images/icon.svg#modal-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
