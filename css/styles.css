@@ -131,7 +131,7 @@ margin-right: 0;
   letter-spacing: 0.02em;
   list-style: none;
   display: block;
-  transition: var(--transition-dur-and-fun);
+  transition: color var(--transition-dur-and-fun);
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -139,7 +139,7 @@ margin-right: 0;
 }
 
 .curent{
-  position: relative
+  position: relative;
 }
 
 .curent::after{
@@ -201,7 +201,7 @@ max-width: 496px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  transition: var(--transition-dur-and-fun);
+  transition: propeerty, var(--transition-dur-and-fun);
   
 
 }
@@ -367,7 +367,7 @@ text-transform: capitalize;
   align-items: center;
   background-color:#4D5AE5;
   border-radius: 50%;
-  transition:property var(--transition-dur-and-fun);
+  transition: background-color var(--transition-dur-and-fun);
 
 }
 .link-team-icon:hover,
@@ -395,7 +395,7 @@ text-transform: capitalize;
   border: 1px solid #8E8F99;
   border-radius: 4px;
   color: #8e8f99;
-  transition:property var(--transition-dur-and-fun);
+  transition: color var(--transition-dur-and-fun), border-color var(--transition-dur-and-fun);
   
 }
 .customers-icon{
@@ -453,7 +453,7 @@ letter-spacing: 0.02em;
   align-items: center;
   background-color:#4D5AE5;
   border-radius: 50%;
-  transition: property var(--transition-dur-and-fun);
+  transition: background-color var(--transition-dur-and-fun);
 }
 .list-footer-icon{
 display: flex;
@@ -538,7 +538,7 @@ position: relative;
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  transition: property var(--transition-dur-and-fun);
+  transition: background-color var(--transition-dur-and-fun);
 }
 
 .button-portfolio:hover,
@@ -620,7 +620,7 @@ position: relative;
   width: 100%;
   height: 100%;
   transform: translate(0, 100%);
-  transition:property, transform var(--transition-dur-and-fun);
+  transition: property, transform var(--transition-dur-and-fun);
 padding-top: 40px;
 padding-right: 32px;
 padding-left: 32px;
@@ -648,7 +648,7 @@ background-color: #4D5AE5;;
    width: 100%;
    height: 100%;
    background-color: rgba(0, 0, 0, 0.2);
-   transition:property, opacity var(--transition-dur-and-fun), visibility var(--transition-dur-and-fun);
+   transition: opacity var(--transition-dur-and-fun), visibility var(--transition-dur-and-fun);
 
 }
 .backdrop.is-hidden{
@@ -674,7 +674,7 @@ background-color: #4D5AE5;;
   background-color:#FCFCFC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-transition:property, transform var(--transition-dur-and-fun) 400ms, opacity var(--transition-dur-and-fun) 400ms;
+transition: property, transform var(--transition-dur-and-fun) 400ms, opacity var(--transition-dur-and-fun) 400ms;
 }
 
 .modal-close-btn{
@@ -690,12 +690,12 @@ transition:property, transform var(--transition-dur-and-fun) 400ms, opacity var(
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 0;
-  transition: property, backgraund-color var(--transition-dur-and-fun);
+  transition:background-color var(--transition-dur-and-fun);
   
 }
 .modal-close-btn-icon{
 fill:  #2E2F42;
-transition: property fill var(--transition-dur-and-fun);
+transition:fill var(--transition-dur-and-fun);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus{
@@ -743,7 +743,7 @@ margin-bottom: 8px;
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  transition: property, border-color var(--transition-dur-and-fun);
+  transition:border-color var(--transition-dur-and-fun);
  }
  .modal-form-input:focus{
   outline: none;
@@ -759,7 +759,7 @@ margin-bottom: 8px;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition:property fill var(--transition-dur-and-fun);
+  transition:fill var(--transition-dur-and-fun);
  }
  .modal-form-input:focus + .modal-form-input-icon{
   fill: #4D5AE5;
@@ -773,7 +773,7 @@ margin-bottom: 8px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
-transition: property, border-color var(--transition-dur-and-fun);
+transition: border-color var(--transition-dur-and-fun);
  }
  .modal-form-message:focus{
   outline: none;
